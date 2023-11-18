@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color:  hsl(210, 46%, 95%);
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.testimonialContainer{
+    background-color:  hsl(210, 46%, 95%);
+    display: grid;
+    width: 1162px;
+    height: 580px;
+    grid-template-columns: 580px 305px 200px;
+    grid-template-rows: 310px 200px;
+}
+
+.testimonialContainer>div{
+    display: grid;
+}
+
+.avatarAndName{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+.avatar{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: solid 1px;
+    border-color: hsl(263, 55%, 52%);
+}
+
+.avatar>img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: solid 1px;
+    border-color: hsl(263, 55%, 52%);
+}
+
+.nameText2{
+    opacity: 50%;
+}
+
+.intro{
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 22px;
+
+}
+
+.quote{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 70%;
+    font-size: 13px;
+}
+
+.danielContainer{
+    background-image: url(/assets/images/bg-pattern-quotation.svg);
+    background-size: 113px 115px;
+    background-repeat: no-repeat;
+    background-position-x: 350px;
+    background-color: hsl(263, 55%, 52%);
+    width: 550px;
+    height: 285px;
+    border-radius: 10px;
+}
+
+.daniel{
+    width: 480px;
+    margin: auto;
+}
+
+.jonathanContainer{
+    background-color: hsl(217, 19%, 35%);
+    width: 275px;
+    height: 265px;
+    border-radius: 10px;
+}
+.jonathan{
+    width: 205px;
+    margin: auto;
+    height: 265px;
+}
+
+.kiraContainer{
+    background-color: hsl(0, 0%, 100%);
+    width: 275px;
+    height: 575px;
+    border-radius: 10px;
+    color: black;
+}
+
+.kira{
+    width: 205px;
+    margin: auto;
+    height: 575px;
+}
+
+.jeanetteContainer{
+    background-color: hsl(0, 0%, 100%);
+    width: 275px;
+    height: 265px;
+    border-radius: 10px;
+    color: black;
+}
+
+.jeanette{
+    width: 205px;
+    margin: auto;
+    height: 265px;
+}
+
+.patrickContainer{
+    background-color: hsl(219, 29%, 14%);
+    width: 550px;
+    height: 265px;
+    border-radius: 10px;
+    margin-left: -275px;
+}
+
+.patrick{
+    width: 480px;
+    margin: auto;
+    height: 265px;
+}
+
+.attribution{
+    color: black;
+    text-align: center;
+}
